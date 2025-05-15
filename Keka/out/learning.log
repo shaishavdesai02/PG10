@@ -1,7 +1,7 @@
-12:16:07,636 INFO  [KekaBase]  Open chrome and window will maimize
-12:16:11,807 INFO  [KekaBase] Open Project (PG10) URL
-12:16:12,038 INFO  [KekaBase] Enter username in username field
-12:16:12,112 INFO  [KekaBase] Enter password in password field
-12:16:12,246 INFO  [KekaBase] Click on the Login Button after enter password
-12:16:23,190 INFO  [KekaBase] Open user profile 
-12:16:24,109 INFO  [KekaBase] Click on logout
+14:58:05,383 INFO  [KekaBase]  Open chrome and window will maimize
+14:58:09,684 INFO  [KekaBase] Open Project (PG10) URL
+14:58:09,865 INFO  [KekaBase] Enter username in username field
+14:58:09,924 INFO  [KekaBase] Enter password in password field
+14:58:19,390 INFO  [KekaBase] Click on the Login Button after enter password
+14:58:22,539 INFO  [KekaBase] Open user profile 
+14:58:23,619 INFO  [KekaBase] Click on logout
