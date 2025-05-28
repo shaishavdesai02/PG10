@@ -10,7 +10,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+
 import kekaPageObjects.Login;
+import kekaPageObjects.Dashboard;
 import kekaPageObjects.Logout;
 
 public class KekaBase 
@@ -18,7 +20,9 @@ public class KekaBase
 	public static Logger log = Logger.getLogger(KekaBase.class.getName());
 	public static WebDriver driver;
 	public Login lgn;
+	public Dashboard dash;
 	public Logout lgo;
+
 	
 	@BeforeTest
 	public WebDriver initalizeDriver()
@@ -31,7 +35,7 @@ public class KekaBase
 		//WebDriver driver = new ChromeDriver(options);
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();		
-		log.info(" Open chrome and window will maimize");
+		log.info("Open chrome and window will maimize");
 		driver.get("https://test.paygate10.com/Login");
 		log.info("Open Project (PG10) URL");
 		return driver;
@@ -41,6 +45,7 @@ public class KekaBase
 	public void objectCreate()
 	{
 		lgn = new Login(driver);
+		dash = new Dashboard(driver);
 		lgo = new Logout(driver);
 	}
 	

@@ -4,9 +4,10 @@
     <listener class-name="listeners.Listeners"/>
   </listeners>
 
-  <test thread-count="5" name="Test">
+  <test thread-count="1" name="Test">
     <classes>
       <class name="kekaTestCases.TC_LoginPage"/>
+      <class name="kekaTestCases.TC_Dashboard"/> 
       <class name="kekaTestCases.TC_Logout"/>
       <class name="Keka.Keka.AppTest"/>
     </classes>

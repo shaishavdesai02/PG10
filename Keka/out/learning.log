@@ -1,7 +1,11 @@
-14:58:05,383 INFO  [KekaBase]  Open chrome and window will maimize
-14:58:09,684 INFO  [KekaBase] Open Project (PG10) URL
-14:58:09,865 INFO  [KekaBase] Enter username in username field
-14:58:09,924 INFO  [KekaBase] Enter password in password field
-14:58:19,390 INFO  [KekaBase] Click on the Login Button after enter password
-14:58:22,539 INFO  [KekaBase] Open user profile 
-14:58:23,619 INFO  [KekaBase] Click on logout
+17:53:57,511 INFO  [KekaBase] Open chrome and window will maimize
+17:54:01,201 INFO  [KekaBase] Open Project (PG10) URL
+17:54:01,687 INFO  [KekaBase] Enter username in username field
+17:54:01,878 INFO  [KekaBase] Enter password in password field
+17:54:08,765 INFO  [KekaBase] Click on the Login Button after enter password
+17:54:11,797 INFO  [KekaBase] ==== Starting Dashboard Test ====
+17:54:11,797 INFO  [KekaBase] Clicking dashboard buttons
+17:54:27,040 INFO  [KekaBase] Printing selected date range
+17:54:27,097 INFO  [KekaBase] ==== Dashboard Test Completed ====
+17:54:27,310 INFO  [KekaBase] Open user profile 
+17:54:28,444 INFO  [KekaBase] Click on logout
